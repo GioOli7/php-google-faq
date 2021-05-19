@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Noto Sans', sans-serif;
+	color: #333;
+	font-size: 14px;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	color: dodgerblue;
+}
+
+header {
+	display: flex;
+	align-items: flex-end;
+	height: 110px;
+	padding-left: 30px;
+	margin-bottom: 50px;
+	border-bottom: 1px solid gray;
+}
+
+header .logo {
+	max-width: 90px;
+	margin-bottom: 20px;
+}
+
+header .flex-wrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+header ul {
+	display: flex;
+	list-style: none;
+}
+
+header ul li {
+	margin-right: 40px;
+	padding-bottom: 10px;
+}
+
+header ul li.active {
+	color: rgb(33, 117, 201);
+	font-weight: bold;
+	border-bottom: 3px solid rgb(33, 117, 201);
+}
+
+li.active a {
+	color: rgb(33, 117, 201);
+}
+
+.QeA {
+	margin-bottom: 80px;
+	line-height: 25px;
+}
+
+.QeA h2 {
+	margin-bottom: 20px;
+}
